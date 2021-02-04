@@ -24,3 +24,14 @@ inputs:
       - label: Low
       - label: required checkbox
         required: true
+- type: dropdown
+  attributes:
+    label: Bug Location(s)
+    description: Where does this bug appear
+    required: true
+    choices:
+      - Web
+      - Mobile
+      - API
+      - No
+      - 100
