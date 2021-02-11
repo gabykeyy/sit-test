@@ -33,4 +33,4 @@ inputs:
       - Web
       - Mobile
       - API
-      - yes
+      - "yes"
