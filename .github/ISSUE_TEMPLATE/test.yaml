@@ -1,0 +1,9 @@
+name: Paddington Bear
+about: things
+inputs:
+- type: description
+  attributes:
+    value: "Paddington Bear is so kind and lovely, prove me wrong"
+- type: textarea
+  attributes:
+    label: "Favorite Paddington moment?"
