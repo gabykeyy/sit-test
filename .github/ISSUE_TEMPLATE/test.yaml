@@ -1,7 +1,7 @@
 name: Paddington Bear
 about: things
-inputs:
-- type: description
+body:
+- type: markdown
   attributes:
     value: "Paddington Bear is so kind and lovely, prove me wrong"
 - type: textarea
