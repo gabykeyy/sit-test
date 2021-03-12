@@ -1,10 +1,13 @@
-name: Paddington Bear
+name: Stuff and things
 about: things
 body:
 - type: markdown
   attributes:
-    value: "Paddington Bear is so kind and lovely, prove me wrong"
+    value: "tell me something"
 - type: textarea
   attributes:
-    label: "Favorite Paddington moment?"
-  validations: true
+    label: "Bugs"
+- type: textarea
+  id: "Bugs"
+  attributes:
+    label: "Bugs"
