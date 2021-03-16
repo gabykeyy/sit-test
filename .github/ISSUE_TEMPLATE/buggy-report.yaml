@@ -1,1 +1,27 @@
-oh: hi: hey:
+name: Using this issue to test pick me
+description: "If you're sure it's reproducible and not just your machine: submit an issue so we can investigate hi."
+hi: no
+labels: bug
+issue_body: false
+body:
+  - type: markdown
+    attributes:
+      value: Please note we will close your issue without comment if you do not fill out the issue checklist below and provide ALL the requested information. If you repeatedly fail to use the issue template, we will block you from ever submitting issues to Homebrew again.
+  - type: textarea
+    attributes:
+      label: brew config
+      description: "`brew config` output"
+    validations:
+      required: true
+  - type: textarea
+    id: doc2
+    attributes:
+      label: brew doctor 3
+      description: "`brew doctor` output"
+    validations:
+      required: true
+  - type: input
+    id: doc
+    attributes:
+      label: brew doctor
+      description: say something
