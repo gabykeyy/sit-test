@@ -6,5 +6,5 @@ body:
     value: "tell me something"
 - type: textarea
   attributes:
-    label: "Bugs"
+    label: "Bugss"
     render: ruby
